@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geovisor IDE</title>
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- CDN Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- CDN Leaflet MiniMap -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.css">
+    <script src="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.js"></script>
+
+    <!-- CDN Shapefile -->
+    <script src="https://unpkg.com/shpjs@latest/dist/shp.js"></script>
+</head>
+<body>
+
+    <div id="contenedor">
+        <div id="panel">
+            <h3>Capas</h3>
+            <div id="listaCapas"></div>
+
+            <h3>Descargas capas</h3>
+            <div id="panelDescargas"></div>
+
+            <h3>Descargas mapas</h3>
+            <div id="download-buttons"></div>
+        </div>
+         
+        <div id="map"></div>
+
+    </div>
+  <!-- Proj4.js para conversión de coordenadas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.2/proj4.js"></script>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/proj4@latest/dist/proj4.js"></script>
+  
+  <!-- Librerías para leer SHP -->
+  <script src="https://unpkg.com/shapefile@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.shpfile/1.4.0/leaflet.shpfile.min.js"></script>
+  <script src="https://unpkg.com/shpjs@latest/dist/shp.js"></script>
+
+  <!-- Proj4.js para conversión de coordenadas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.2/proj4.js"></script>
+
+  <!-- shp.js para lectura de archivos SHP -->
+  <script src="https://cdn.jsdelivr.net/npm/shpjs@latest/dist/shp.js"></script>  
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.js"></script>
+    <script src="src/js/mapa.js"></script>
+    <script src="src/js/capas.js"></script>
+    <script src="src/js/location.js"></script>
+    <script src="src/js/coordinates.js"></script>
+    <script src="src/js/descargas.js"></script>
+
+    <script src="src/js/controles.js"></script>
+     <script src="src/js/download.js"></script>
+</body>
+</html>
