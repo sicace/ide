@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geovisor IDE</title>
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- CDN Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- CDN Leaflet MiniMap -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.css">
+    <script src="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.js"></script>
+
+    <!-- CDN Shapefile -->
+    <script src="https://unpkg.com/shpjs@latest/dist/shp.js"></script>
+</head>
+<body>
+
+    <div id="contenedor">
+        <div id="panel">
+            <h3>Capas</h3>
+            <div id="listaCapas"></div>
+
+            <h3>Descargas capas</h3>
+            <div id="panelDescargas"></div>
+
+            <h3>Descargas mapas</h3>
+            <div id="download-buttons"></div>
+        </div>
+         
+        <div id="map"></div>
+
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.js"></script>
+    <script src="src/js/mapa.js"></script>
+    <script src="src/js/capas.js"></script>
+    <script src="src/js/descargas.js"></script>
+    <script src="src/js/controles.js"></script>
+     <script src="src/js/download.js"></script>
+</body>
+</html>
